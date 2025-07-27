@@ -44,11 +44,17 @@ x3270 localhost:3270
 
 9. Appuyer sur "I" puis "P" puis "L" et voir ce message en bas à droite: "SELECT DEVICE FOR IPL"
 <img width="590" height="385" alt="Capture d’écran 2025-07-27 à 19 51 11" src="https://github.com/user-attachments/assets/0b85edd2-f5fc-4725-946b-040abad2d380" />
+
 10. Sélectionner le disque A en appuyant sur la touche "A", l'IPL se lance alors automatiquement:
+
 <img width="590" height="385" alt="Capture d’écran 2025-07-27 à 19 52 08" src="https://github.com/user-attachments/assets/110c0430-72c5-4ad3-893e-8c34b339ef78" />
+
 11. Un des deux terminaux (ici celui en x3270, le premier lancé) servira de log pour l'IPL permettant de suivre l'avancé du lancement. L'autre deviendra une instance TSO accessible et loggable (c3270 ici):
+
 <img width="2410" height="1576" alt="image" src="https://github.com/user-attachments/assets/216ed348-7ec9-4fef-86ee-71e7c71b3c5b" />
+
 12. Après le classique "LOGON" puis l'utilisation de l'user par defaut "IBMUSER" (mot de passe identique), on peut rentrer dans ISPF:
+
 <img width="588" height="401" alt="Capture d’écran 2025-07-27 à 19 55 21" src="https://github.com/user-attachments/assets/5eb5fbfc-15c2-4822-a0e5-f6ba498772f2" />
 
 <img width="588" height="401" alt="Capture d’écran 2025-07-27 à 19 56 07" src="https://github.com/user-attachments/assets/b79d6d60-f45e-4f1d-af4c-d1e4505d4007" />
